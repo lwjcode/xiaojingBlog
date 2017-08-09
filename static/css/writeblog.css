@@ -1,0 +1,48 @@
+.write-blog{
+		padding-top: 50px;
+		width: 100%;
+		margin-bottom: 60px;
+	}
+
+	.form-group-plus{
+		width: 100%;
+	}
+
+	.form-control-plus{
+		width: 94%;
+		outline: none;
+		border:0;
+		padding: 0 3%;
+		font-family: 'Avenir', Helvetica, Arial, sans-serif;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	   color: #2c3e50;
+	}
+
+	.form-control-plus[name=blogtitle]{
+		height: 40px;
+		font-size: 1.4rem;
+		border-bottom:#f4f4f4 2px solid;
+	}
+
+	.form-control-plus[name=blogtag]{
+		border-top:#f4f4f4 2px solid;
+		height: 25px;
+		font-size: 1.1rem;
+		border-bottom:#f4f4f4 2px solid;
+	}
+
+	textarea{
+		font-size: 1.1rem;
+		line-height: 22px;
+	}
+
+	input[type=button]{
+		margin-top:10px;
+		margin-left: 85%;
+		background-color: #58E481;
+		border:0;
+		color: #fff;
+		padding:5px 10px;
+		border-radius: 5px;
+	}

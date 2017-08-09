@@ -1,0 +1,129 @@
+.form-control{
+  width: 100%;
+  padding: 5px;
+  outline:none;
+  border:2px #f4f4f4 solid;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   color: #2c3e50;
+}
+
+.form-control:focus{
+  border:1px #fff solid;
+  outline:#58E481 solid 2px;
+}
+
+.user-date div a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+}
+
+.usermess{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.usermess div{
+  margin-right:20px;
+}
+
+.usermess div img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.usermess div a{
+  text-decoration: none;
+}
+
+hr{
+  background-color:#f4f4f4;
+  border:0;
+  height: 1px;
+  margin:20px 0;
+  border-style: outset;
+}
+
+.blog{
+  padding:60px 5%;
+}
+
+
+.blogwarp{
+  margin: 0 20%;
+}
+
+.title{
+  font-size: 1.5rem
+}
+
+.user-warp-plus{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.user-img a img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.user-name a{
+  text-decoration: none;
+  color: #464545;
+}
+
+.user-warp-item-plus{
+  margin-left: 20px;
+}
+
+.user-warp-item-plus div{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-right:20px;
+  color: #bbb;
+}
+
+#btn-send{
+  margin-left: 90%;
+}
+
+.btn-submit{
+  background-color: #58E481;
+  border:0;
+  color: #fff;
+  padding:5px 10px;
+  border-radius: 5px;
+}
+
+.reviewcontent{
+  padding: 10px;
+}
+
+.btn-reply{
+  color: #bbb;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.eachother{
+  margin:10px 0;
+}
+
+.eachother a{
+  color: #8E9FE6;
+  text-decoration: none;
+}
+
+#replydialog{
+  display: none;
+}

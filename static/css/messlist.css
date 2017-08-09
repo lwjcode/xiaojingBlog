@@ -1,0 +1,96 @@
+.messlist{
+		padding: 60px 2%;
+	}
+
+	hr{
+	  background-color:#f4f4f4;
+	  border:0;
+	  height: 1px;
+	  margin:20px 0;
+	  border-style: outset;
+	}
+
+	.user-plus{
+		display: inline-flex;
+		align-items: center;
+	}
+
+	.user-plus a img{
+		width:50px;
+		height: 50px;
+		border-radius: 50%;
+	}
+
+	.name{
+		margin-left:30px;
+		text-decoration: none;
+		color: #000;
+		font-size: 1.1rem;
+	}
+
+	.message div a{
+		text-decoration: none;
+  		color: #8E9FE6;
+	}
+
+	.date{
+		margin-top: 5px;
+		color: #ccc;
+	}
+
+	.date span{
+		margin-left: 50%;
+		cursor: pointer;
+	}
+
+	.action{
+		margin: 10px 0;
+	}
+
+	.content{
+		border-radius: 5px;
+		margin: 10px;
+		padding: 10px;
+	}
+
+	.content a{
+		text-decoration: none;
+  		color: #8E9FE6;
+	}
+
+	.btn{
+	  background-color: #58E481;
+	  border:0;
+	  color: #fff;
+	  padding:5px 10px;
+	  border-radius: 5px;
+	  margin-left: 85%;
+	}
+
+	.form-control{
+	  width: 100%;
+	  padding: 5px;
+	  box-sizing: border-box;
+	  outline:none;
+	  border:2px #f4f4f4 solid;
+	  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	   color: #2c3e50;
+	}
+
+	.form-control:focus{
+	  border:1px #fff solid;
+	  outline:#58E481 solid 2px;
+	}
+
+	.warn{
+		position: absolute;
+		padding: 5px 2%;
+		border-radius: 5px;
+		width:20%;
+		left:38%;
+		top:100px;
+		border: #58E481 solid 2px;
+		background-color: #f4f4f4;
+	}

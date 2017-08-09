@@ -1,0 +1,48 @@
+.choice-box{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	width: 100%;
+	position: fixed;
+	top:92%;
+	z-index: 2px;
+	height: 50px;
+	align-items: center;
+	background-color: #fff;
+	box-shadow: 5px 0 5px #ccc;
+}
+
+.home-btn, .user-btn, .talk-btn{
+	font-size: 0.9rem;
+	cursor: pointer;
+	padding: 5px;
+}
+
+.home-btn a, .user-btn a {
+	text-decoration: none;
+	color: #2c3e50;
+}
+
+.talk-btn{
+	background-color: #58E481;
+	padding: 10px;
+	border-radius: 8px;
+}
+
+.talk-btn a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.text-style{
+	font-size:0.8rem;
+	margin-left: -2px;
+}
+
+.icon-style{
+	font-size:1.5rem;
+}
+
+.green{
+	color: #58E481;
+}

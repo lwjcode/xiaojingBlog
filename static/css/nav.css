@@ -1,0 +1,40 @@
+	.nav{
+		display: flex;
+		position: fixed;
+		background-color: #58E481;
+		height: 50px;
+		margin-top: 0;
+		width: 100%;
+		color: #fff;
+		align-items: center;
+		z-index: 9;
+	}
+
+	.header{
+		width:20%;
+		text-align: center;
+	}
+
+	.dialog{
+		width:60%;
+	}
+
+	.dialog input{
+		height: 25px;
+		width:90%;
+		outline: none;
+		border-radius: 10px;
+		background-color: #fff;
+		padding: 0 5px;
+		border-style: none;
+		border-color: #fff;
+		box-shadow: 0 0 5px #fff;
+	}
+
+	.btn-plus{
+		width: 20%;
+	}
+
+	.btn-plus span{
+		cursor: pointer;
+	}

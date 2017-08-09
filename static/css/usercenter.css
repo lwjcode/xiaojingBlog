@@ -1,0 +1,59 @@
+.usercenter{
+	position: relative;
+	top:60px;
+	width: 100%;
+}
+
+.usercenter a{
+	text-decoration: none;
+	color: #2c3e50;
+}
+
+.user{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 90%;
+	align-items: center;
+	padding: 10px 5%;
+	box-shadow: 10px 0 10px #ccc;
+	cursor: pointer;
+}
+
+.userimg{
+	width:30%;
+}
+
+.userimg img{
+	width:70px;
+	height: 70px;
+	border-radius: 50%;
+}
+
+.username{
+	width:70%;
+}
+
+.myblog-plus{
+	width: 90%;
+	margin-top:30px;
+	padding: 10px 5%;
+	box-shadow: 10px 0 2px #ccc;
+	cursor: pointer;
+}
+
+.myblog-plus i{
+	font-size:1.3rem;color:#ccc
+}
+
+.mymess-plus{
+	margin-top: 10px;
+}
+
+.mymess-plus span{
+	margin-left:10px;
+	background-color: red;
+	color: #fff;
+	border-radius: 50%;
+	padding: 3px;
+}
